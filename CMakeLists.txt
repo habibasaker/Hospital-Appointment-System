@@ -4,7 +4,7 @@ project(HospitalAppointmentSystem)
 set(CMAKE_CXX_STANDARD 17)
 
 # Include headers
-include_directories(include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # Source files
 set(SOURCES
